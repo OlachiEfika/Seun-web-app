@@ -2,46 +2,144 @@
 /* the box model - margin, border, padding 
 margin and padding are similar in that they both create space, while margin creates spaces without
 the background color, padding creates space  with the background color*/
-body {
-    
-    color: #000;
+.body { 
     font-family: sans-serif;
+    color: #fff;
 }
-
-/*p {
-    background-color: ;
-    color: ;
-    font-family: ;
-}
-
-h1 {
-    background-color: ;
-    color: ;
-    font-family: ; 
-}
-*/
 
 /*body {
     background-image: url('img/backgroundpic.jpeg');
     background-repeat: no-repeat;
     }
 */
-.introduction {
-    background-color: #548CA8;
-    padding: 30px;
-    text-align: left;
-    color: #EEEEEE;
-    font-weight:bold;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+.menu-container {
+    background-color: #548CA8;
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+    font-weight:bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width:900px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.login {
+    margin-left: auto;
+    font-size: 15px;
+}
+.sign-up {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    
+}
+
 .button {
+    justify-content: center;
+    display: flex;
+    align-self: flex-end;
+    padding: 15px;
+    border: 20px;
+    margin: 10px;
+}
+
+.covid {
+    justify-content: center;
+    display: flex;
+}
+
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+    flex: 2 1 0%;
+
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    align-self: flex-end;
+    
+}
+
+.qualify {
+    margin-left:20px ;
+    display:flex;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+    display: flex;
+  }
+
+  .header-contain {
+    color: black;
+    background-color: #D6E9FE;
+    display: flex;
+    
+  }
+
+  /*.bio {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    align-self: flex-end;
+  }*/
+
+    /*align-items: center;
     border-color: transparent;
     border-radius: .375rem;
     border-width: 1px;
     display: inline-flex;
     font-size: 1rem;
     font-weight: 500;
-    justify-content: center;
+    
     line-height: 1.5rem;
     min-width: 100px;
     padding: .75rem 1.5rem;
@@ -51,10 +149,10 @@ h1 {
     box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
     text-decoration: none;
     --tw-bg-opacity: 1;
-    background-color: rgba(15,118,110,var(--tw-bg-opacity));
+    background-color: rgba(15,118,110,var(--tw-bg-opacity));*/
 }
 
-.top {
+/*.top {
     
     background-color: #476072;
     color: #fff;
@@ -62,6 +160,6 @@ h1 {
     font-size: 16px;
     height: 30px;
 }
-
+*/
 
 
